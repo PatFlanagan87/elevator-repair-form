@@ -152,6 +152,7 @@ function toggleSafetyDetails(){
 </form><script>
 document.getElementById("repairForm").addEventListener("submit", async function (e) {
   e.preventDefault();
+  alert("Submit handler fired");
 
   const files = document.getElementById("photos").files;
   const photos = [];
